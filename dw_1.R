@@ -1,10 +1,8 @@
 library(dplyr) 
-library(xlsx)
 library(tidyr)
 
 
 # 0. load the data
-setwd("/Users/Shared/dw_exercise_1")
 data <- tbl_df(read.csv("./refine_original.csv", sep = ";"))
 
 # 1. clean up brand names
